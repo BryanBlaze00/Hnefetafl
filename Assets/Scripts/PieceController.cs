@@ -9,6 +9,7 @@ public class PieceController : MonoBehaviour
     [SerializeField] bool isKing;
     [SerializeField] bool isDefender;
     [SerializeField] bool isAttacker;
+    
 
     //TODO - Remove after looked over --> Dragging option 1
     // bool isDragging = false;
