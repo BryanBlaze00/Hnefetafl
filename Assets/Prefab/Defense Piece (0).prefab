@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 5373921812301801712}
   - component: {fileID: 7036014112443387494}
   - component: {fileID: -6042403828527231657}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Defense Piece (0)
-  m_TagString: Untagged
+  m_TagString: Defender
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1778327445
-  m_SortingLayer: 2
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 2e36b6b59bac4cc4ea0467a702b3ae14, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

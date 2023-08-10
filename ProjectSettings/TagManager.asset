@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Board
+  - Exit
+  - Throne
+  - Attacker
+  - Defender
+  - King
   layers:
   - Default
   - TransparentFX
@@ -11,11 +17,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Board
+  - Exit
+  - Throne
+  - Game Play
+  - King
   - 
   - 
   - 
@@ -44,6 +50,15 @@ TagManager:
   - name: Board
     uniqueID: 515444379
     locked: 0
-  - name: Pieces
+  - name: Exit
+    uniqueID: 2601779947
+    locked: 0
+  - name: Throne
+    uniqueID: 3887174637
+    locked: 0
+  - name: Game Play
     uniqueID: 1778327445
+    locked: 0
+  - name: King
+    uniqueID: 1733826379
     locked: 0
