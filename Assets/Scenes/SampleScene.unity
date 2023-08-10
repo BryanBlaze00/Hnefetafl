@@ -3129,14 +3129,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4562457255002479423, guid: aded266a29c696f45b8d3af572fd1888, type: 3}
-      propertyPath: m_SortingLayer
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4562457255002479423, guid: aded266a29c696f45b8d3af572fd1888, type: 3}
-      propertyPath: m_SortingLayerID
-      value: 1778327445
-      objectReference: {fileID: 0}
     - target: {fileID: 6249692431607537991, guid: aded266a29c696f45b8d3af572fd1888, type: 3}
       propertyPath: m_Name
       value: King
