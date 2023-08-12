@@ -33,19 +33,23 @@ public class GameSetup : MonoBehaviour
     [SerializeField] GameObject _12;
 
     GridManager _gridManager;
+    bool hasClickedPlay;
 
-    void Awake()
+    /*void Awake()
     {
-        _gridManager = FindAnyObjectByType<GridManager>();
-    }
+
+    }*/
 
     void Start()
     {
+        _gridManager = FindAnyObjectByType<GridManager>();
+
         CreateKingAndThrone();
         CreateDefenders();
         CreateAttackers();
         CreateExits();
         SetupNumbers();
+
     }
 
     private void SetupNumbers()
@@ -159,4 +163,5 @@ public class GameSetup : MonoBehaviour
     {
         return Instantiate(prefabObject, new Vector3(x, y, 0f), Quaternion.identity, parent.transform);
     }
+
 }

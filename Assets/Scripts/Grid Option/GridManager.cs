@@ -12,6 +12,7 @@ public class GridManager : MonoBehaviour
     [SerializeField] Transform _cam;
 
     [SerializeField] Transform _gridManager;
+    bool hasClickedPlay = false;
 
     // Tile Coordinates Grid / List
     private static readonly Transform[,] _grid = new Transform[_width, _height];
@@ -36,7 +37,10 @@ public class GridManager : MonoBehaviour
 
     void Start()
     {
+
         GenerateGrid();
+
+
     }
 
     void GenerateGrid()
@@ -59,4 +63,5 @@ public class GridManager : MonoBehaviour
 
         _cam.transform.position = new Vector3((float)_width / 2 - 0.5f, (float)_height / 2 - 0.5f, -10);
     }
+
 }
